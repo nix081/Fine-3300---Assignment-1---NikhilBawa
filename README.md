@@ -49,12 +49,13 @@ Rapid Weekly Payment: 152.6
 python exchange_rates.py
 ```
 Your will be prompted to enter:
-Currency to convert from (USD or CAD)
+Currency to convert from and to (USD or CAD)
 Amount to Convert
 
 With the following inputs the output should be something the like following:
 ```
 Will you be converting from USD or CAD: CAD
+Will you be converting to USD or CAD: USD
 Please enter the amount you will convert: 100000
 
 Output:
