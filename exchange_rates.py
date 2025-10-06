@@ -55,13 +55,13 @@ class ExchangeRates:
 if __name__ == "__main__":
     print("USD/CAD Currency Converter")
     from_currency = str(input("Will you be converting from USD or CAD: ")).upper()
-    #prompts user to pick the which currency to convert from 
-    #since we are only working with USD and CAD, assuming the user is not using this to convert the same currency 
-    #by default the other currency (cad or usd) is set as to_currency 
-    if from_currency == "USD":
-        to_currency = "CAD"
-    else:
-        to_currency = "USD"
+    to_currency = str(input("Will you be converting to USD or CAD: ")).upper()
+    #prompts user to pick the which currency to convert from and which currency to convert to
+    #assume only USD and CAD are valid answers
+    if from_currency == to_currency:
+        print("You have chosen the same currency, no need to convert")
+        exit()
+    #incase the user inputs the same (USD -> USD)
 
     amount = float(input("Please enter the amount you will convert: "))
     #prompts user to provide the amount we need to convert
