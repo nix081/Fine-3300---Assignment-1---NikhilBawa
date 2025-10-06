@@ -1,4 +1,4 @@
-## Fine Assingment 1 By Nikhil Bawa 
+## Fine 3300 Assingment 1 By Nikhil Bawa 
 
 This project has two parts and showcases two separate python classes:
   1. Mortgage Payment Calculator: Calculates mortgage payment for different payment frequencies based on the Canadian fixed-rate
