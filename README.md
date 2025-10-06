@@ -1,4 +1,4 @@
-Fine Assingment 1 By Nikhil Bawa 
+## Fine Assingment 1 By Nikhil Bawa 
 
 This project has two parts and showcases two seperate python classes:
   1. Mortgage Payment Calculator: Calculates mortgage payment for differnt payment frequencies based on the Canadian fixed-rate
@@ -16,3 +16,11 @@ This project has two parts and showcases two seperate python classes:
   - This class wil read the file BankOfCanadaExchangeRates.csv
   - Extracts the most recent USD/CAD rate and converts them according to the nearest penny
 
+## How to Run
+### MortgagePayment
+Run:
+```bash
+python mortgage_payment.py
+
+### Exchange Rate
+python exchange_rates.py
